@@ -2,7 +2,7 @@ version: "3.9"
 services:
   vuejs-testing:
     build: .
-    command: sh -c "npm install && npm run serve"
+    command: sh -c "npm install && npm run serve "
     ports:
       - 8080:8080
     volumes:
