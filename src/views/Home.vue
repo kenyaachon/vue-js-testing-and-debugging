@@ -29,7 +29,7 @@
                       <input
                         type="email"
                         placeholder="Enter Email"
-                        class="form-control"
+                        class="form-control login-email"
                         v-model="email"
                       />
                     </div>
@@ -37,13 +37,13 @@
                       <input
                         type="password"
                         placeholder="Enter Password"
-                        class="form-control"
+                        class="form-control login-password"
                         v-model="password"
                       />
                     </div>
                     <button
                       type="button"
-                      class="btn btn-primary"
+                      class="btn btn-primary login-button"
                       @click="login()"
                     >
                       Login
